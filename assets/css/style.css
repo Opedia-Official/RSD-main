@@ -1113,3 +1113,137 @@ form.f-subscribe input::placeholder {color: #A7A7A7;}
 	border:1px solid #ED1C24;
 }
 /* FOOTER AREA ENDS */
+
+
+/* CREATE ACCOUNT */
+a.btn.btn-2 {
+    background: transparent;
+    color: red;
+    border: 1px solid #ED1C24;
+}
+
+.create-account-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    background: #fff;
+    padding:  235px 0;
+    position: relative;
+}
+
+.create-account-wrapper > a {
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 400px;
+}
+
+.create-account-wrapper h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #232323;
+	margin-bottom: 25px;
+}
+
+span.have_account {
+    display: inline-block;
+}
+
+span.have_account {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B7B7B;
+}
+
+span.have_account>a {
+    color: #ED1C24;
+    font-size: 700;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-size: 17px;
+}
+
+section.create-account-area {
+    background: #E5E5E5;
+    padding: 155px 0;
+}
+
+.create-account-wrapper:after {
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    content: '';
+    background: #ED1C24;
+    bottom: 0;
+    left: 0;
+}
+span.have_account>a:hover {
+    color: #232323;
+}
+
+/* verify-account */
+span.otp-verify-number {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B7B7B;
+}
+
+span.otp-number {
+    color: #232323;
+    font-weight: 600;
+}
+
+span.otp-verify-number> p#otp-action {
+    color: #ED1C24;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.otp-form input {
+	border: 1px solid #D3D3D3;
+	box-sizing: border-box;
+	border-radius: 10px;
+	height: 87px;
+	width: 87px;
+	display: inline-block;
+	margin: 0px 8px;
+	text-align: center;
+}
+
+
+.otp-form {
+    display: flex;
+    flex-direction: column;
+     margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.otp-form .have_account {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.create-account-wrapper.otp h4 {
+    margin-bottom: 10px;
+}
+input#opt-number {
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ED1C24;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 10px;
+    color: #7B7B7B;
+}
+.otp-form input:focus {
+    border: 1px solid #ED1C24;
+}

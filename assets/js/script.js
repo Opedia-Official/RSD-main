@@ -120,18 +120,30 @@ $(".header-item-right span").click(function(){
   
       // Calculate cost dropdown
     // In your Javascript (external .js resource or <script> tag)
-  $(document).ready(function() {
+
     $('#c-from').select2();
-  });
-  $(document).ready(function() {
+ 
+
     $('#c-destination').select2();
-  });
-  $(document).ready(function() {
+
+
     $('#c-service').select2();
-  });
-  $(document).ready(function() {
+
+
     $('#c-location').select2();
-  });
+
+    $('#opt-number').hide();
+    $('.otp-number').show();
+    
+
+  $("#otp-action").click(function(){
+    $('#opt-number').toggle();
+    let otp_number = $('.otp-number').html().slice(-10);
+     $('#opt-number').val(otp_number)
+     $('.otp-number').toggle();
+
+  })
+
   
   
   

@@ -388,6 +388,7 @@ form.f-subscribe .btn {
     padding: 0;
     text-align: center;
 }
+
 }
 
 
@@ -451,7 +452,9 @@ form.f-subscribe .btn {
       padding-right: 0;
       text-align: center;
   }
-
+  .create-account-wrapper {
+    padding: 140px 0;
+}
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 575.98px) { 
@@ -537,12 +540,28 @@ form.f-subscribe .btn {
       padding-right: 0;
       text-align: center;
   }
-
+  .create-account-wrapper > a {
+    width: inherit;
+}
+.create-account-wrapper h4 {
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.create-account-wrapper {
+  padding: 140px 0;
+}
+span.otp-verify-number {
+  font-size: 15px;
+  line-height: 22px;
+}
+span.have_account {
+  font-size: 15px;
+}
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 
-@media all and (min-width:481px) and (max-width: 575.98px) {
+@media all and (min-width:481px) and (max-width: 574.98px) {
 
 
 }
