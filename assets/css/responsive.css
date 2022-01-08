@@ -388,6 +388,9 @@ form.f-subscribe .btn {
     padding: 0;
     text-align: center;
 }
+.create-account-wrapper.business-info input {
+  width: 300px;
+}
 
 }
 
@@ -455,6 +458,13 @@ form.f-subscribe .btn {
   .create-account-wrapper {
     padding: 140px 0;
 }
+.create-account-wrapper.business-info input {
+  width: 100%;
+}
+.business-info .reset-password-form {
+  padding: 0 20px;
+}
+
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 575.98px) { 
@@ -557,6 +567,20 @@ span.otp-verify-number {
 span.have_account {
   font-size: 15px;
 }
+
+.create-account-wrapper.reset-password button {
+  width: inherit;
+  margin-top: 15px;
+}
+.create-account-wrapper.business-info input {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.business-info .reset-password-form {
+  padding: 0 20px;
+}
+
 }
 
 /* Extra small devices (portrait phones, less than 576px) */

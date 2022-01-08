@@ -1247,3 +1247,38 @@ input#opt-number {
 .otp-form input:focus {
     border: 1px solid #ED1C24;
 }
+
+/* RESET PASSWORD */
+.create-account-wrapper.reset-password button {width: 400px;    margin-top: 15px;}
+
+.reset-password-form input {
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    padding: 15px 0 15px 18px;
+}
+
+.reset-password-form input::placeholder {
+    color: #D3D3D3;
+}
+
+.reset-password-form input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #ED1C24;
+}
+
+.reset-password-form label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #232323;
+	margin-bottom: 10px;
+}
+.create-account-wrapper.reset-password h4 {
+    margin-bottom: 40px;
+}
+
+/* BUSINESS INFORMATION */
+.create-account-wrapper.business-info input {
+    width: 400px;
+}
