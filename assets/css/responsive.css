@@ -4,13 +4,13 @@
 /* =======================================
   laptop device css start here
 ==========================================*/
-@media (min-width: 1440px){ 
+@media (min-width: 1200px){ 
   .responsive_banner_review {
     display: none;
   }
 }
 
-@media (min-width: 1400px){ 
+@media (min-width: 1200px){ 
 	.banner_review {
 		display: flex;
 		flex-wrap: wrap;
@@ -48,39 +48,26 @@
   }
 }
 
-@media (max-width: 1439px){ 
+@media (max-width: 1400px){ 
   /* banner section */
-  .banner_review {
-    display: none !important;
-  }
-	.banner_review_left {
+  .banner_review_left {
 		background-color: #fff;
-		border-radius: 20px;
-		padding: 35px 28px 28px;
-		position: unset;
-		bottom: 90px;
+    max-width: 356px;
+    border-radius: 20px;
+    padding: 35px 28px 28px;
+    position: absolute;
+    bottom: 90px;
+    left: 48%;
 	}
 	.banner_review_right {
-		background: #fff;
-		width: 280px;
-		border-radius: 20px;
-		position: unset;
-		border: 1px solid #F4F4F4
+    background: #fff;
+    width: 208px;
+    border-radius: 20px;
+    position: absolute;
+    right: -76px;
+    bottom: 0px;
+    border: 1px solid #F4F4F4;
 	}
-  .banner_review_left {
-    box-shadow: 0px 10px 60px rgb(0 0 0 / 5%);  
-  }
-  .responsive_banner_review {
-    margin: 40px 0px;
-  }
-  .b_admin_start {
-    margin: 10px 0px 8px;
-  }
-  .services_section {
-    background-image: none;
-    margin-bottom: 80px;
-  }
- 
 }
 
 
@@ -107,7 +94,37 @@
     font-size: 20px; 
   } 
 
-  
+  .banner_review {
+    display: none !important;
+  }
+	.banner_review_left {
+		background-color: #fff;
+		border-radius: 20px;
+		padding: 35px 28px 28px;
+		position: unset;
+		bottom: 90px;
+	}
+	.banner_review_right {
+		background: #fff;
+		width: 280px;
+		border-radius: 20px;
+		position: unset;
+		border: 1px solid #F4F4F4;
+	}
+  .banner_review_left {
+    box-shadow: 0px 10px 60px rgb(0 0 0 / 5%);  
+  }
+  .responsive_banner_review {
+    margin: 40px 0px;
+  }
+  .b_admin_start {
+    margin: 10px 0px 8px;
+  }
+  .services_section {
+    background-image: none;
+    margin-bottom: 80px;
+  }
+ 
 
 
 }

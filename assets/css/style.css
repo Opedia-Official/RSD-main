@@ -388,8 +388,12 @@ position: absolute;
 }
 
 .b-btn-join {
-	margin-left: -10px;
-	position: absolute;
+    margin-left: -10px;
+    position: absolute;
+    border-radius: 0 10px 10px 0;
+}
+button.btn.b-btn-join:after {
+    border-radius: 0 10px 10px 0;
 }
  
 .b_admin span {
@@ -449,10 +453,10 @@ position: absolute;
 
 .gift_image_icon i.fas.fa-play {
 	font-size: 12px;
-	color: red;
+	color: #ED1C24;
 	width: 32px;
 	height: 32px;
-	border: 1px solid red;
+	border: 1px solid #ED1C24;
 	border-radius: 50%;
 	text-align: center;
 	display: block;
@@ -581,7 +585,13 @@ button.btn.trackbtn {
 .delivery_item {
 	padding: 45px;
 	overflow: hidden;
+	transition: .3s;
 }
+.delivery_item:hover {
+    background-color: #ED1C24;
+}
+
+
 
 .delivery_slide:hover {
 	transform: scale(1.1);
@@ -593,14 +603,17 @@ button.btn.trackbtn {
 	text-align: center;
 	margin-top: 20px;
 }
+.delivery_item:hover h6 {
+    color: #fff;
+}
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
 	content: 'next';
-	color: red;
+	color: #ED1C24;
 	font-size: 21px;
 }
 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
 	content: 'prev';
-	color: red;
+	color: #ED1C24;
 	font-size: 21px;
 }
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
@@ -686,7 +699,7 @@ button.btn.trackbtn {
 	background-color: #fff;
 } 
 .service_item:hover {
-	background-color: red;
+	background-color: #ED1C24;
 }
 .service_item h4, .service_item p {
 	-webkit-transition: all 0.3s ease-out 0s;
@@ -948,6 +961,7 @@ ul.review-star li {
 	font-family: Inter;
 	color: #ED1C24 !important;
 }
+
 .question .accordion-body {
 	font-family: Inter;
     padding-top: 0.01rem;
@@ -994,6 +1008,9 @@ ul.review-star li {
     border-top-left-radius:20px;
     border-top-right-radius: 20px;
 }
+/* .question .accordion-button:not(.collapsed) .question .accordion-item{
+	border: 1px solid green !important;
+} */
 
 
 
